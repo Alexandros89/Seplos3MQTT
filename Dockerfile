@@ -1,8 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-COPY \
-  /workspace
+COPY  /workspace
 
 RUN  \
   apk update
